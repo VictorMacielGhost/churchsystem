@@ -1,0 +1,65 @@
+/* Importa o CSS Geral */
+@import url('../../source/styles/global.css');
+
+/* Estilos específicos para a página de registro */
+body {
+    background: #f2f2f2; /* Fundo cinza claro */
+    color: #333; /* Cor do texto mais escura */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #4285F4; /* Cor azul para o título */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333; /* Cor do texto mais escura */
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #4285F4; /* Cor azul ao focar nos campos */
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.25); /* Cor azul mais suave ao focar */
+}
+
+button {
+    background-color: #4285F4; /* Cor azul para o botão */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3B5998; /* Cor azul mais escura ao passar o mouse sobre o botão */
+}

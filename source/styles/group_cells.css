@@ -1,0 +1,89 @@
+/* Estilos para a página de células */
+
+/* Header */
+header {
+    background-color: #4285F4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Seção de lista de membros */
+.members-list {
+    margin-top: 30px;
+}
+
+.members-list h2 {
+    color: #4285F4;
+}
+
+/* Tabela de membros */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #4285F4;
+    color: white;
+}
+
+/* Botões na tabela */
+.table button {
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Botões gerais */
+.btn-primary {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #0F9D58;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Mensagem para célula sem membros */
+.members-list h3 {
+    margin-top: 20px;
+    color: #4285F4;
+}
+
+/* Estilos para remover líder */
+.btn-danger {
+    background-color: #EA4335;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

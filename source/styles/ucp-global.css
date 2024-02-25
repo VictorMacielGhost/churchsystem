@@ -1,0 +1,10 @@
+html{
+    background-image: linear-gradient(to bottom right, lightblue, rgb(0, 99, 192));
+    height: 100vh;
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 100vh;
+}

@@ -1,29 +1,31 @@
 /* Importa o CSS Geral */
 @import url('../../source/styles/global.css');
 
-/* Estilos específicos para a página de registro */
 body {
     background: #f2f2f2; /* Fundo cinza claro */
     color: #333; /* Cor do texto mais escura */
-    margin: 0;
+    margin: auto;
     padding: 0;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 960px;
 }
 
 form {
-    max-width: 400px;
+    max-width: 100%;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    margin: 1px;
+    width: 480px;
 }
 
 h2 {
     text-align: center;
-    color: #4285F4; /* Cor azul para o título */
+    color: #4285F4; /* Cor azul para o tï¿½tulo */
     margin-bottom: 20px;
     font-size: 24px;
 }
@@ -45,21 +47,38 @@ input, select {
 }
 
 input:focus, select:focus {
-    border-color: #4285F4; /* Cor azul ao focar nos campos */
+    border-color: #4285F4;  
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.25); /* Cor azul mais suave ao focar */
 }
 
 button {
-    background-color: #4285F4; /* Cor azul para o botão */
+    background-color: #4285F4; /* Cor azul para o botï¿½o */
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: auto;
+    display: block;
 }
 
 button:hover {
-    background-color: #3B5998; /* Cor azul mais escura ao passar o mouse sobre o botão */
+    background-color: #3B5998; /* Cor azul mais escura ao passar o mouse sobre o botï¿½o */
+}
+/* Estilos para o texto "Jï¿½ possui uma conta?" */
+.account-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.account-text a {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+.account-text a:hover {
+    text-decoration: underline;
 }

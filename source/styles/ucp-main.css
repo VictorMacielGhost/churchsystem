@@ -1,0 +1,14 @@
+.main-info{
+    display: flex;
+    max-width: 360px;
+    margin: auto;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-info section{
+    margin: 0;
+}

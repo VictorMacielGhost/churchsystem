@@ -1,0 +1,95 @@
+.common-a{
+    text-decoration: none;
+    font-size: 1em;
+    text-shadow: 0px 0px 0.2px black;
+    color: rgb(65, 52, 248);
+}
+
+.common-a:visited{
+    color: rgb(65, 52, 248);
+    transition: all ease-in-out 0.3s;
+}
+
+.common-a:hover{
+    color: #002574;
+    transition: all ease-in-out 0.3s;
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+main * {
+    max-width: 480px;
+}
+main form{    
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+input, select {
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #4285F4;  
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.25); /* Cor azul mais suave ao focar */
+}
+
+button {
+    background-color: #4285F4; /* Cor azul para o bot�o */
+    color: white;
+    padding: 4px 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: auto;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #3B5998; /* Cor azul mais escura ao passar o mouse sobre o bot�o */
+}
+
+table *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table thead tr th{
+    font-size: 1.2em;
+}
+table td{ 
+    font-size: 1.2em;
+}
+table a{
+    text-decoration: none;
+    font-size: 1em;
+    text-shadow: 0px 0px 0.2px black;
+    color: rgb(65, 52, 248);
+}
+table a:hover{
+    color: #002574;
+    transition: all ease-in-out 0.3s;
+}
+
+.cell-details *{
+    text-align: center;
+    width: 100%;
+}
+.cell-details table {
+    width: 100%;
+}
+
+.btn-custom{
+    width: 100%;
+    height: 100%;
+}
